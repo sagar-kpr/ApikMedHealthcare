@@ -127,7 +127,6 @@ function openWhatsApp() {
   var whatsappURL = isMobile
     ? "https://wa.me/8968897662"
     : "https://web.whatsapp.com/send?phone=8968897662";
-
   window.open(whatsappURL);
 }
 
