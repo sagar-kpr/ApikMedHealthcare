@@ -125,7 +125,7 @@ function toggleWidget() {
 function openWhatsApp() {
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   var whatsappURL = isMobile
-    ? "whatsapp://send?phone=8968897662"
+    ? "https://wa.me/8968897662"
     : "https://web.whatsapp.com/send?phone=8968897662";
   window.open(whatsappURL);
 }
