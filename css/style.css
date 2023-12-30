@@ -57,6 +57,14 @@
     border-radius: 4px;
     width: 240px;
     padding: 10px 16px;
+    transform: translateY(100%);
+    transition: transform 1s ease-in-out;
+      
+}
+
+.widget-content.loaded {
+    transform: translateY(0);
+    /* When the 'loaded' class is added, set opacity to 1 */
 }
 
 .para {

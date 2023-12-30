@@ -131,4 +131,8 @@ function openWhatsApp() {
   window.open(whatsappURL);
 }
 
+var widget_content = document.getElementById("widget-content");
 
+document.addEventListener("DOMContentLoaded", function () {
+  widget_content.classList.add("loaded");
+});
