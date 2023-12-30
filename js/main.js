@@ -113,3 +113,22 @@
     
 })(jQuery);
 
+function toggleWidget() {
+  var widgetContent = document.getElementById("widget-content");
+  widgetContent.style.display =
+    widgetContent.style.display === "none" || widgetContent.style.display === ""
+      ? "block"
+      : "none";
+}
+
+
+function openWhatsApp() {
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  var whatsappURL = isMobile
+    ? "https://wa.me/8566848794"
+    : "https://web.whatsapp.com/send?phone=8566848794";
+
+  window.open(whatsappURL);
+}
+
+

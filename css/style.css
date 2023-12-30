@@ -15,6 +15,72 @@
     z-index: 99;
 }
 
+
+.widget-container {
+    position: fixed;
+    bottom: 160px;
+    right: 25px;
+    z-index: 999;
+}
+
+.widget-button {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    width: 60px !important;
+    height: 60px !important;
+    background-color: rgb(46, 71, 93);
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px, rgba(0, 0, 0, 0.2) 0px 2px 12px;
+}
+
+.chatsvg{
+    position: relative;
+    display: flex;
+    width:100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget-content {
+    position: relative;
+    border: 1px solid #eaf0f6;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    width: 240px;
+    padding: 10px 16px;
+}
+
+.para {
+    font-family: Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(51, 71, 91);
+    line-height: 24px;
+}
+
+.widget-close-button {
+    position: absolute;
+    padding: 5px 10px;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    font-family: Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(124, 152, 182);
+    ;
+    line-height: 24px;
+
+}
+
 h1,
 .h1,
 h2,
