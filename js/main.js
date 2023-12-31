@@ -124,8 +124,9 @@ function toggleWidget() {
 
 function openWhatsApp() {
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+//   console.log(isMobile)
   var whatsappURL = isMobile
-    ? "https://api.whatsapp.com/send?text=welcome&phone=8968897662"
+    ? "https://wa.me/918968897662?text=welcome to atikmed"
     : "https://web.whatsapp.com/send?phone=8968897662";
   window.open(whatsappURL);
 }
