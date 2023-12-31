@@ -113,21 +113,30 @@
     
 })(jQuery);
 
-function toggleWidget() {
-  var widgetContent = document.getElementById("widget-content");
-  widgetContent.style.display =
-    widgetContent.style.display === "none" || widgetContent.style.display === ""
-      ? "block"
-      : "none";
-}
+// function toggleWidget() {
+//   var widgetContent = document.getElementById("widget-content");
+//   widgetContent.style.display =
+//     widgetContent.style.display === "none" || widgetContent.style.display === ""
+//       ? "block"
+//       : "none";
+// }
+
+ function toggleWidget() {
+   var widgetContent = document.getElementById("widget-content");
+   if (window.getComputedStyle(widgetContent).display === "none") {
+     widgetContent.style.display = "block";
+   } else {
+     widgetContent.style.display = "none";
+   }
+ }
 
 
 function openWhatsApp() {
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 //   console.log(isMobile)
   var whatsappURL = isMobile
-    ? "https://wa.me/918968897662?text=welcome to atikmed"
-    : "https://web.whatsapp.com/send?phone=8968897662";
+    ? "https://wa.me/918968897662?text=Hi I am enquiring for your services "
+    : "https://web.whatsapp.com/send?phone=8968897662&text=Hi I am enquiring for your services";
   window.open(whatsappURL);
 }
 
