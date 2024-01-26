@@ -27,9 +27,9 @@
     position: absolute;
     right: 0;
     margin-top: 10px;
-    width: 60px !important;
-    height: 60px !important;
-    background-color: rgb(46, 71, 93);
+    width: 55px !important;
+    height: 55px !important;
+    background-color: #25D366;
     color: #fff;
     border-radius: 50%;
     text-align: center;
@@ -386,7 +386,7 @@ h6,
     border-radius: 8px;
     display: flex;
     align-items: flex-end;
-    padding: 18px;
+    padding: 11px;
     z-index: -1;
     transition: .5s;
 }

@@ -135,8 +135,8 @@ function openWhatsApp() {
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 //   console.log(isMobile)
   var whatsappURL = isMobile
-    ? "https://wa.me/918968897662?text=Hi I am enquiring for your services "
-    : "https://web.whatsapp.com/send?phone=8968897662&text=Hi I am enquiring for your services";
+    ? "https://wa.me/919646045784?text=Hi I am enquiring for your services "
+    : "https://web.whatsapp.com/send?phone=9646045784&text=Hi I am enquiring for your services";
   window.open(whatsappURL);
 }
 
