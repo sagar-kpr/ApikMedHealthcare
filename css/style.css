@@ -40,6 +40,7 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px, rgba(0, 0, 0, 0.2) 0px 2px 12px;
 }
 
+
 .chatsvg{
     position: relative;
     display: flex;
@@ -518,7 +519,9 @@ h6,
     border: 30px solid;
     border-color: var(--light) transparent transparent transparent;
 }
-
+.copyright-logo{
+    width:30px !important;
+}
 .testimonial-item .testimonial-text::after {
     position: absolute;
     content: "";
