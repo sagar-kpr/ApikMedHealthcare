@@ -387,6 +387,7 @@ h6,
     border-radius: 8px;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
     padding: 11px;
     z-index: -1;
     transition: .5s;
